@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Event Organizer on TEDx Avenues</title>
+    <link>https://daniel-chuang.github.io/tedx-website/categories/event-organizer/</link>
+    <description>Recent content in Event Organizer on TEDx Avenues</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 14 Mar 2020 15:40:24 +0600</lastBuildDate><atom:link href="https://daniel-chuang.github.io/tedx-website/categories/event-organizer/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dennis Ren</title>
+      <link>https://daniel-chuang.github.io/tedx-website/team/dennis-r/</link>
+      <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
+      
+      <guid>https://daniel-chuang.github.io/tedx-website/team/dennis-r/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
