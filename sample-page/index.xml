@@ -2,9 +2,9 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Sample Page on TEDx Avenues</title>
-    <link>/sample-page/</link>
+    <link>https://daniel-chuang.github.io/tedx-website/sample-page/</link>
     <description>Recent content in Sample Page on TEDx Avenues</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="/sample-page/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://daniel-chuang.github.io/tedx-website/sample-page/index.xml" rel="self" type="application/rss+xml" />
   </channel>
 </rss>

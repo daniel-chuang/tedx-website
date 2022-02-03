@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Working days on TEDx Avenues</title>
-    <link>/categories/working-days/</link>
+    <link>https://daniel-chuang.github.io/tedx-website/categories/working-days/</link>
     <description>Recent content in Working days on TEDx Avenues</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Mar 2020 15:40:24 +0600</lastBuildDate><atom:link href="/categories/working-days/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Mar 2020 15:40:24 +0600</lastBuildDate><atom:link href="https://daniel-chuang.github.io/tedx-website/categories/working-days/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Works and Days</title>
-      <link>/team/post-1/</link>
+      <link>https://daniel-chuang.github.io/tedx-website/team/post-1/</link>
       <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
       
-      <guid>/team/post-1/</guid>
+      <guid>https://daniel-chuang.github.io/tedx-website/team/post-1/</guid>
       <description>Lorem ipsum, or lipsum as it is sometimes known, is dummy text used in laying out print, graphic or web designs.</description>
     </item>
     
