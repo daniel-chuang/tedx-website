@@ -6,10 +6,12 @@
 
 var cnv;
 var count = 36;
+var windowWidthLast;
+var img;
 
 function preload() {
     img = loadImage("images/tedx-avenues-black.png")
-    img.resize(windowWidth / 3, windowHeight / 3)
+    img.resize(windowWidth / 1.5, 0);
 }
 
 function setup() {
@@ -23,21 +25,17 @@ function setup() {
     noStroke();
     frameRate(30);
     noCursor();
-
+    
+    img.resize(windowWidth / 1.5, 0);
+    windowWidthLast = windowWidth;
 }
 
 function draw() {
 
 
-    if (windowWidth < windowHeight + 150) {
-        remove();
-    }
-
-    if (mouseIsPressed) {
-        frameRate(60);
-    } else {
-        frameRate(30);
-    }
+    // if (windowWidth < windowHeight + 150) {
+    //     remove();
+    // }
     
     background(360, 0, 0); // Sets the background as white in our new colorspace
     fill(255);
@@ -56,12 +54,23 @@ function draw() {
         circ = new circle2(mouseX, mouseY, 10, width * mouseY / height, 0.1);
         circ.draw()
 
+        if (windowWidthLast > windowWidth) {
+          img.resize(windowWidth / 1.5, 0);
+        } else if (windowWidthLast < windowWidth) {
+          img = loadImage("images/tedx-avenues-black.png");
+          img.resize(windowWidth / 1.5, 0);
+        }
+        windowWidthLast = windowWidth;
         image(img, windowWidth/2 - img.width/2, windowHeight/2 - img.height/2);
         // resizeCanvas(windowHeight, windowWidth);
     }
 
     
     count = constrain(round(constrain(mouseX, 0, width) / 50), 3, 10);
+}
+
+function windowResized() {
+  resizeCanvas(windowWidth, windowHeight);
 }
 
 class circle1 {
@@ -78,7 +87,12 @@ class circle1 {
     var angleStep = round(360 / count);
     strokeWeight(0);
     for (let i = 0; i <= 360; i+=angleStep) {
-      fill(i, width, height - 4 * dist(mouseX + width / 2 * 0.2 / 4, mouseY + height / 2 * 0.2 / 4, this.x, this.y) * mouseY / height, this.alpha);
+
+      if (mouseIsPressed && mouseY > 100 && mouseY < height) {
+        fill(255 - i, 255 - width, 255 - (height - 4 * dist(mouseX + width / 2 * 0.2 / 4, mouseY + height / 2 * 0.2 / 4, this.x, this.y) * mouseY / height), this.alpha);
+      } else {
+        fill(i, width, height - 4 * dist(mouseX + width / 2 * 0.2 / 4, mouseY + height / 2 * 0.2 / 4, this.x, this.y) * mouseY / height, this.alpha);
+      }
       arc(this.x, this.y, this.diameter, this.diameter, i-1 + this.rotateRate * frameCount, i+angleStep + this.rotateRate * frameCount, PIE);
 
     }

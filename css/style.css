@@ -58,7 +58,7 @@ html,
 body {
 	border: none;
 	margin: 0;
-	padding: 0;
+	padding: 0px;
 }
 
 h1,
@@ -75,7 +75,6 @@ cite,
 code,
 em,
 font,
-img,
 small,
 strike,
 sub,
@@ -99,6 +98,16 @@ td {
 	margin: 0;
 	padding: 0;
 	text-align: inherit;
+}
+
+img {
+	border: none;
+	font-size: inherit;
+	line-height: inherit;
+	margin: 0;
+	padding: 0;
+	text-align: inherit;	
+	z-index: -1;
 }
 
 blockquote::before,
@@ -153,6 +162,9 @@ body {
 
 #site-content {
 	overflow: hidden;
+	position: relative;
+	top: 75px;
+	margin-top: 75px;
 }
 
 
@@ -2369,6 +2381,7 @@ body.template-full-width [class*="wp-block"].alignfull:not(.has-background) [cla
 .archive-header {
 	background-color: #fff;
 	padding: 4rem 0;
+	padding-top: 50px;
 }
 
 .reduced-spacing .archive-header {
@@ -2412,6 +2425,7 @@ body:not(.singular) main>article:first-of-type {
 .singular .entry-header {
 	background-color: #fff;
 	padding: 4rem 0;
+	padding-top: 40px;
 }
 
 .entry-categories {
@@ -2593,6 +2607,7 @@ h2.entry-title {
 
 .featured-media img {
 	margin: 0 auto;
+	z-index: 0;
 }
 
 .featured-media figcaption {
@@ -5076,6 +5091,7 @@ a.to-the-top>* {
 
 	.singular .entry-header {
 		padding: 8rem 0;
+		padding-top: 40px;
 	}
 
 	.entry-categories {

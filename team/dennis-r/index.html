@@ -36,10 +36,13 @@
 
 <body class="home page-template-default page wp-embed-responsive singular enable-search-modal has-post-thumbnail has-no-pagination not-showing-comments show-avatars footer-top-visible">
 	<style>
-  #site-header {
-    position: fixed;
-    width: 100vw;
-  }
+#site-header {
+  position: -webkit-sticky;  
+  position: sticky;
+  top: 0;
+  z-index: 2147483647;
+}
+
 </style>
 
 <header id="site-header" class="header-footer-group" role="banner">
