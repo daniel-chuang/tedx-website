@@ -8,6 +8,7 @@ var cnv;
 var count = 36;
 var windowWidthLast;
 var img;
+var myCanvas;
 
 function preload() {
     img = loadImage("images/tedx-avenues-black.png")
@@ -16,11 +17,12 @@ function preload() {
 
 function setup() {
     angleMode(DEGREES)
-    var myCanvas = createCanvas(windowWidth, windowHeight);
-        myCanvas.class('backgroundsketch');
-        myCanvas.style("z-index", "0");
+    myCanvas = createCanvas(windowWidth, windowHeight);
+    myCanvas.class('backgroundsketch');
+    myCanvas.style("z-index", "0");
     // myCanvas.parent("")
     myCanvas.position(0, 0);
+
     colorMode(HSB, 360, width, height); // Using HSB Colorspace with width and height as params so we don't need to remap mouse position values.
     noStroke();
     frameRate(30);
@@ -31,11 +33,6 @@ function setup() {
 }
 
 function draw() {
-
-
-    // if (windowWidth < windowHeight + 150) {
-    //     remove();
-    // }
     
     background(360, 0, 0); // Sets the background as white in our new colorspace
     fill(255);
@@ -67,6 +64,10 @@ function draw() {
 
     
     count = constrain(round(constrain(mouseX, 0, width) / 50), 3, 10);
+
+    if (windowWidth < windowHeight - 50) {
+      resizeCanvas(windowWidth, windowHeight / 2);
+    }
 }
 
 function windowResized() {
