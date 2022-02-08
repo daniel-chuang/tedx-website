@@ -8,12 +8,30 @@
     <language>en-us</language>
     <lastBuildDate>Sat, 14 Mar 2020 15:40:24 +0600</lastBuildDate><atom:link href="https://daniel-chuang.github.io/tedx-website/categories/speaker/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Alexander Farman-Farmaian</title>
+      <link>https://daniel-chuang.github.io/tedx-website/speakers/alex-ff/</link>
+      <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
+      
+      <guid>https://daniel-chuang.github.io/tedx-website/speakers/alex-ff/</guid>
+      <description>My talk is about the negative affects the American media has had on people living in Iran. The United States’ foreign policy with Iran had been mostly amicable until the hostage crisis in 1979.</description>
+    </item>
+    
+    <item>
       <title>Jai Jhamb</title>
       <link>https://daniel-chuang.github.io/tedx-website/speakers/jai-j/</link>
       <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
       
       <guid>https://daniel-chuang.github.io/tedx-website/speakers/jai-j/</guid>
       <description>testing</description>
+    </item>
+    
+    <item>
+      <title>Jonathan Waldorf</title>
+      <link>https://daniel-chuang.github.io/tedx-website/speakers/jonathan-w/</link>
+      <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
+      
+      <guid>https://daniel-chuang.github.io/tedx-website/speakers/jonathan-w/</guid>
+      <description>Hi everyone, my name is Jonathan Waldorf, and I’m here to talk to you about how we can save lives through science and technology. Last summer I was lucky enough to work in a lab where researchers were tracking tornadoes using infrasound, which is below the range of human hearing.</description>
     </item>
     
   </channel>
