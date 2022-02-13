@@ -2,26 +2,26 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Production Team on TEDx Avenues</title>
-    <link>https://daniel-chuang.github.io/tedx-website/categories/production-team/</link>
+    <link>https://tedxavenues.org/categories/production-team/</link>
     <description>Recent content in Production Team on TEDx Avenues</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Mar 2020 15:40:24 +0600</lastBuildDate><atom:link href="https://daniel-chuang.github.io/tedx-website/categories/production-team/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Mar 2020 15:40:24 +0600</lastBuildDate><atom:link href="https://tedxavenues.org/categories/production-team/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Samuel Centurion</title>
-      <link>https://daniel-chuang.github.io/tedx-website/team/samuel-c/</link>
+      <link>https://tedxavenues.org/team/samuel-c/</link>
       <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
       
-      <guid>https://daniel-chuang.github.io/tedx-website/team/samuel-c/</guid>
+      <guid>https://tedxavenues.org/team/samuel-c/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Sofia DeJesus</title>
-      <link>https://daniel-chuang.github.io/tedx-website/team/sofia-d/</link>
+      <link>https://tedxavenues.org/team/sofia-d/</link>
       <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
       
-      <guid>https://daniel-chuang.github.io/tedx-website/team/sofia-d/</guid>
+      <guid>https://tedxavenues.org/team/sofia-d/</guid>
       <description></description>
     </item>
     

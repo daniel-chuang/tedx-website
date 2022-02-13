@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Author on TEDx Avenues</title>
-    <link>https://daniel-chuang.github.io/tedx-website/author/</link>
+    <link>https://tedxavenues.org/author/</link>
     <description>Recent content in Author on TEDx Avenues</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Mar 2020 15:40:24 +0600</lastBuildDate><atom:link href="https://daniel-chuang.github.io/tedx-website/author/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Mar 2020 15:40:24 +0600</lastBuildDate><atom:link href="https://tedxavenues.org/author/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Admin</title>
-      <link>https://daniel-chuang.github.io/tedx-website/author/admin/</link>
+      <link>https://tedxavenues.org/author/admin/</link>
       <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
       
-      <guid>https://daniel-chuang.github.io/tedx-website/author/admin/</guid>
+      <guid>https://tedxavenues.org/author/admin/</guid>
       <description></description>
     </item>
     

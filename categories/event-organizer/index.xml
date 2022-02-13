@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Event Organizer on TEDx Avenues</title>
-    <link>https://daniel-chuang.github.io/tedx-website/categories/event-organizer/</link>
+    <link>https://tedxavenues.org/categories/event-organizer/</link>
     <description>Recent content in Event Organizer on TEDx Avenues</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 14 Mar 2020 15:40:24 +0600</lastBuildDate><atom:link href="https://daniel-chuang.github.io/tedx-website/categories/event-organizer/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 14 Mar 2020 15:40:24 +0600</lastBuildDate><atom:link href="https://tedxavenues.org/categories/event-organizer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dennis R</title>
-      <link>https://daniel-chuang.github.io/tedx-website/team/dennis-r/</link>
+      <link>https://tedxavenues.org/team/dennis-r/</link>
       <pubDate>Sat, 14 Mar 2020 15:40:24 +0600</pubDate>
       
-      <guid>https://daniel-chuang.github.io/tedx-website/team/dennis-r/</guid>
+      <guid>https://tedxavenues.org/team/dennis-r/</guid>
       <description></description>
     </item>
     
