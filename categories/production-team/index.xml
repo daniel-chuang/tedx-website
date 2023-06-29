@@ -2,25 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Production Team on TEDx Avenues</title>
-    <link>https://tedxavenues.org/categories/production-team/</link>
+    <link>https://daniel-chuang.github.io/tedx-website/categories/production-team/</link>
     <description>Recent content in Production Team on TEDx Avenues</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://tedxavenues.org/categories/production-team/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://daniel-chuang.github.io/tedx-website/categories/production-team/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Samuel Centurion</title>
-      <link>https://tedxavenues.org/team/samuel-c/</link>
+      <link>https://daniel-chuang.github.io/tedx-website/team/samuel-c/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tedxavenues.org/team/samuel-c/</guid>
+      <guid>https://daniel-chuang.github.io/tedx-website/team/samuel-c/</guid>
       <description>Hi! My name is Sam. I am in charge of video production for TEDx this year. I chose to join the TEDx team because of my curiosity with perspective and it’s impact on peoples opinions.</description>
     </item>
     
     <item>
       <title>Sofia DeJesus</title>
-      <link>https://tedxavenues.org/team/sofia-d/</link>
+      <link>https://daniel-chuang.github.io/tedx-website/team/sofia-d/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tedxavenues.org/team/sofia-d/</guid>
+      <guid>https://daniel-chuang.github.io/tedx-website/team/sofia-d/</guid>
       <description>Hey y&amp;rsquo;all! My name is Sofia, and I&amp;rsquo;m a senior. I had the great opportunity of participating in the development of TEDx AVENUES as part of the production team!</description>
     </item>
     

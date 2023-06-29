@@ -2,16 +2,16 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Treasurer on TEDx Avenues</title>
-    <link>https://tedxavenues.org/categories/treasurer/</link>
+    <link>https://daniel-chuang.github.io/tedx-website/categories/treasurer/</link>
     <description>Recent content in Treasurer on TEDx Avenues</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://tedxavenues.org/categories/treasurer/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://daniel-chuang.github.io/tedx-website/categories/treasurer/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Alex Lippe</title>
-      <link>https://tedxavenues.org/team/alex-l/</link>
+      <link>https://daniel-chuang.github.io/tedx-website/team/alex-l/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://tedxavenues.org/team/alex-l/</guid>
+      <guid>https://daniel-chuang.github.io/tedx-website/team/alex-l/</guid>
       <description>Hi my name is Alex, I joined Avenues in 2018 as a freshmen. Since I’ve become a member of the Avenues community I have been focused on how to strengthen student voices and create outlets for students to share their stories and passions.</description>
     </item>
     
